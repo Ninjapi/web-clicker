@@ -1,4 +1,88 @@
-h1 {
-    color:red;
+h2 {
+    font-size: 75;
     text-align: center;
+    color:purple;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.buybutton {
+    position: relative;
+    font-weight: bold;
+    font-size: 40;
+    padding-left: 15px;
+    background-color: gainsboro;
+    display: none;
+}
+.plus {
+    position:absolute;
+    left:87.5%;
+}
+.plusimg {
+    width: 81px;
+    height: 81px;
+}
+.price {
+    font-weight: lighter;
+    font-size: 30;
+    width: 50%;
+}
+.amount {
+    float:right;
+    position: relative;
+    right: 16%;
+}
+.price2 {
+    display: inline-block;
+}
+.income {
+    font-size: 35px;
+    text-align: center;
+    color: gold;
+    margin-bottom: 50px;
+}
+#left {
+    position:absolute;
+    left: 0;
+    top: 0;
+    width:65%;
+}
+#right {
+    position:absolute;
+    right: 0;
+    top: 0;
+    width:35%;
+}
+#clickbutton {
+    font-size: 20;
+    top: 50px;
+    position: relative;
+    left: 40%;
+    width: 20%;
+}
+#income {
+    display: inline;
+}
+#clickobjimg {
+    height: 442px;
+    width: 442px;
+}
+#clickobj {
+    position:relative;
+    display: inline-block;
+    left:37.5%;
+}
+#counter {
+    position: absolute;
+    font-size: 50;
+    left: 48%;
+    bottom: 22%;
+}
+a div img {
+    transition:transform 80ms linear;   
+}
+a:hover div img {
+    transform: scale(1.05);
+}
+a:active div img {
+    transform: scale(0.9);
 }
