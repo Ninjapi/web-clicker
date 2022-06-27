@@ -10,12 +10,11 @@ h2 {
     font-weight: bold;
     font-size: 40;
     padding-left: 15px;
-    background-color: gainsboro;
     display: none;
 }
 .plus {
     position:absolute;
-    left:87.5%;
+    left: 90%;
 }
 .plusimg {
     width: 81px;
@@ -29,7 +28,7 @@ h2 {
 .amount {
     float:right;
     position: relative;
-    right: 16%;
+    right: 13%;
 }
 .price2 {
     display: inline-block;
@@ -40,17 +39,25 @@ h2 {
     color: gold;
     margin-bottom: 50px;
 }
+.buyimg {
+    position: absolute;
+    background-image: url(https://static.wikia.nocookie.net/deeprockgalactic_gamepedia_en/images/9/90/Huuli_Hoarder.png);
+    background-size: 81px 81px;
+    width: 81px;
+    height: 81px;
+    left: 40%;
+}
 #left {
     position:absolute;
     left: 0;
     top: 0;
-    width:65%;
+    width:60%;
 }
 #right {
     position:absolute;
     right: 0;
     top: 0;
-    width:35%;
+    width:40%;
 }
 #clickbutton {
     font-size: 20;
