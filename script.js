@@ -9,7 +9,7 @@ class Game {
         {
             rootElementId: 'worker1',
             name: 'Loot Bug',
-            price: 10,
+            price: 100,
             income: 1,
             bgcolor: '#FF0000',
             img: 'url(https://static.wikia.nocookie.net/deeprockgalactic_gamepedia_en/images/b/be/LootBug.png)',
@@ -17,7 +17,7 @@ class Game {
         {
             rootElementId: 'worker2',
             name: 'Mini-M.U.L.E.',
-            price: 20,
+            price: 200,
             income: 2,
             bgcolor: '#FF7F00',
             img: "url(https://static.wikia.nocookie.net/deeprockgalactic_gamepedia_en/images/3/35/MiniMule.png)",
@@ -25,7 +25,7 @@ class Game {
         {
             rootElementId: 'worker3',
             name: 'M.U.L.E.',
-            price: 30,
+            price: 300,
             income: 3,
             bgcolor: '#FFFF00',
             img: 'url(https://static.tvtropes.org/pmwiki/pub/images/molly_03.png)',
@@ -33,26 +33,26 @@ class Game {
         {
             rootElementId: 'worker4',
             name: 'Bosco',
-            price: 40,
+            price: 400,
             income: 4,
             bgcolor: "#00FF00",
-            img: 'url(https://static.wikia.nocookie.net/deeprockgalactic_gamepedia_en/images/9/9b/Bosco.png)'
+            img: 'url(https://static.wikia.nocookie.net/deeprockgalactic_gamepedia_en/images/9/9b/Bosco.png)',
         },
         {
             rootElementId: 'worker5',
             name: 'Dwarf',
-            price: 50,
+            price: 500,
             income: 5,
             bgcolor: "#0000FF",
-            img: 'url(https://static.wikia.nocookie.net/deeprockgalactic_gamepedia_en/images/d/d0/Gunner.png)'
+            img: 'url(https://static.wikia.nocookie.net/deeprockgalactic_gamepedia_en/images/d/d0/Gunner.png)',
         },
         {
             rootElementId: 'worker6',
             name: 'Huuli Hoarder',
-            price: 60,
+            price: 600,
             income: 6,
             bgcolor: "#4B0082",
-            img: 'url(https://static.wikia.nocookie.net/deeprockgalactic_gamepedia_en/images/9/90/Huuli_Hoarder.png)'
+            img: 'url(https://static.wikia.nocookie.net/deeprockgalactic_gamepedia_en/images/9/90/Huuli_Hoarder.png)',
         }
     ];
     // Задаем пустой массив экземпляров воркеров
@@ -60,7 +60,7 @@ class Game {
     //Сохраняем ссылки на элементы в HTML-странице
     counterElement = document.getElementById('counter');
     clickElement = document.getElementById('clickobj');
-    incomeElement = document.getElementById('income')
+    incomeElement = document.getElementById('income');
 
     // Конструктор вызывается один раз, когда создаешь экземпляр этого класса
     constructor() {
